@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>ALO ALO MARCIANO!</title>
+</head>
+<body>
+
+  •Nome:<input id="txtNome" type="text"
+value="Nome"
+onfocus="this.value=' ';" /><br><br>
+•Idade:<input id="txtIdade" type="text"
+value="idade"
+onfocus="this.value=' ';" />
+<br><br>
+•Sexo:<br> 
+Masculino <input id="rdM" name="sexo" type="radio"
+ondblclick="if(this.checked){this.checked=false};"/><br>
+Feminino <input id="rdF" name="sexo" type="radio"
+ondblclick="if(this.checked){this.checked=false};"/><br>
+Outro <input id="rdO" name="sexo" type="radio"
+ondblclick="if(this.checked){this.checked=false};"/><br><br>
+
+•País: <select id="selPais">
+    <option value="Brasil">Brasil</option>
+    <option value="França">França</option>
+    <option value="Itália">Itália</option>
+    <option value="Espanha">Espanha</option>
+  </select><br><br>
+
+<input type="button" id="result" value="enviar" onclick="enviar();"/><br>
+
+<div id="dvResultado" value="enviar"></div>
+
+</body>
+</html> 

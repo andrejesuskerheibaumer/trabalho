@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+}
+
+body {
+  padding: 5%;
+  background-color: rgb(252, 142, 83);
+  background-image: url(https://wallpaperaccess.com/full/2329952.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: 50%;
+  animation: writer 2s steps(20) alternate;
+}
+
+h1 {
+  font-size: larger;
+  font-family: 'Noto Sans JP', sans-serif;
+}
